@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 
-interface DataProp {
+export interface CatProp {
   heigth: number
   id: string
   url: string
@@ -10,7 +10,7 @@ interface DataProp {
 }
 
 export function useFetch(URL: string) {
-  const [data, setData] = useState<DataProp[]>([])
+  const [data, setData] = useState<CatProp[]>([])
   const [isLoading, setLoading] = useState(false)
   const [error, setError] = useState<boolean | null>(null)
 
