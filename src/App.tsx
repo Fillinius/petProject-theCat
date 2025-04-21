@@ -1,3 +1,5 @@
+import { CatsPage } from './assets/components/pages/CatsPage'
+
 export function App() {
-  return <p>Vite</p>
+  return <CatsPage />
 }
