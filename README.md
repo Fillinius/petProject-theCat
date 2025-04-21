@@ -6,8 +6,8 @@ For running local version
 - npm run dev
 
   Useing state:
-  -Vite
-  -React typescript
+  - Vite
+  - React typescript
   
 
 
