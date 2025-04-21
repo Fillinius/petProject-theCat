@@ -1,6 +1,7 @@
 import { useFetch } from '../hooks/useFetch'
 import { path } from '../path..ts/path'
-import { StyledCatCard } from '../ui/styledCarCard'
+import { SCSSComponent } from '../ui/scss/scssComponent'
+import { StyledCatCard } from '../ui/styledComponent/styledCarCard'
 import './styles.css'
 
 export const CatsPage = () => {
@@ -17,6 +18,12 @@ export const CatsPage = () => {
         <div className="cards-section">
           {cats.map((cat) => (
             <StyledCatCard key={cat.id} {...cat} />
+          ))}
+        </div>
+        <h2>SCSS Components</h2>
+        <div className="cards-section">
+          {cats.map((cat) => (
+            <SCSSComponent key={cat.id} {...cat} />
           ))}
         </div>
       </div>

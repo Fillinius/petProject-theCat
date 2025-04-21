@@ -1,4 +1,4 @@
-import { CatProp } from '../hooks/useFetch'
+import { CatProp } from '../../hooks/useFetch'
 import styled from 'styled-components'
 
 const Card = styled.div`
