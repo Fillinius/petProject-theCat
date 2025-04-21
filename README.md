@@ -8,6 +8,9 @@ For running local version
   Useing state:
   - Vite
   - React typescript
+
+   For running web version
+https://fillinius.github.io/petProject-theCat/ 
   
 
 
