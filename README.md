@@ -1,5 +1,9 @@
 ## This is pet Project as test job
-
+требование по ТЗ
+- создать StyleComponent
+- SCSS 
+- CSS
+- 
 For running local version
 - loading repo
 - npm i
