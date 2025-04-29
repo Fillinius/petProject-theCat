@@ -1,4 +1,4 @@
-import { CatsPage } from './assets/components/pages/CatsPage'
+import { CatsPage } from './components/pages/CatsPage'
 
 export function App() {
   return <CatsPage />
