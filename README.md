@@ -1,9 +1,9 @@
 ## This is pet Project as test job
 требование по ТЗ
 - создать StyleComponent
-- SCSS 
-- CSS
-- 
+- SCSS Component
+- CSS Module
+  
 For running local version
 - loading repo
 - npm i
